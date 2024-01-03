@@ -3,6 +3,7 @@ form {
   margin: 100px 350px 100px 350px;
 }
 
+
 input[type="text"],
 input[type="password"] {
   width: 100%;
@@ -24,6 +25,7 @@ button {
 
 button:hover {
   opacity: 0.8;
+  transform: scale(1.2);
 }
 
 .canclebtn {
@@ -54,4 +56,9 @@ span.psw {
   .canclebtn {
     width: 100%;
   }
+}
+
+video{
+  border-radius: 25px;
+  border: 5px solid;
 }
